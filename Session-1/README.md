@@ -4,6 +4,9 @@
 ### Assignment:
 Deploying Pre-trained MobileNet_V2 PyTorch model as HTTP Service using AWS Lambda and Serverless(SLS) Framework
 
+### SlideBook/FlipBook by SANE_NEURONS
+- ####[How to Setup AWS Account](https://saneneurons.github.io/how-to/setup-aws-account.html)
+
 ### DEMO
 #### Input Image:
 ![Input Image for Classification](https://github.com/saneneurons/eva4p2/blob/master/Session-1/doggo.jpg)
