@@ -1,0 +1,70 @@
+service: mobilenet-v2-pytorch
+
+provider:
+  name: aws
+  runtime: python3.8
+  stage: dev
+  region: ap-south-1
+  timeout: 60 # this value is over-written by the default 30 seconds timeout by Lambda
+
+  environment:
+    S3_BUCKET: <bucket_name> # globally unique bucket name
+    MODEL_PATH: <model_file_path> # model.pt
+
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - s3:getObject
+      Resource: arn:aws:s3:::<bucket_name>/* # allow all files under bucket
+
+
+custom:
+  pythonRequirements:
+    dockerizePip: true
+    zip: true
+    slim: true
+    strip: false
+    noDeploy:
+      - docutils
+      - jmespath
+      - pip
+      - python-dateutil
+      - setuptools
+      - six
+      - tensorboard
+    useStaticCache: true
+    useDownloadCache: true
+    cacheLocation: "./cache"
+
+package:
+  individually: false
+  exclude:
+    - package.json
+    - package-lock.json
+    - node_modules/**
+    - cache/**
+    - test/**
+    - __pycache__/**
+    - .pytest_cache/**
+    - model/**
+
+
+functions:
+  classify_image:
+    handler: handler.classify_image
+    memorySize: 3008
+    timeout: 60 # overwritten with lambda default of 30 seconds
+    events:
+      - http:
+          path: classify
+          method: post
+          cors: true
+
+plugins:
+  - serverless-python-requirements
+
+
+Global:
+  Api:
+    BinaryMediaTypes:
+      - multipart/form-data # To allow 'multipart' binary data processing
