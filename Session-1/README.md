@@ -9,7 +9,7 @@ Deploying Pre-trained MobileNet_V2 PyTorch model as HTTP Service using AWS Lambd
 
 ### DEMO
 #### Input Image:
-![Input Image for Classification](https://github.com/saneneurons/eva4p2/blob/master/Session-1/doggo.jpg)
+![Input Image for Classification](https://github.com/saneneurons/eva4p2/blob/master/Session-1/doggo.jpg "input image")
 
 #### Output:
 ![MobileNetV2 Output](https://github.com/saneneurons/eva4p2/blob/master/Session-1/MobileNetV2%20Classification%20Output.png)
