@@ -22,9 +22,9 @@
 In this section, we briefy walk you through the Python Notebook for the training:
 - First, import the necessary modules from **torch, torchvision** and **matplotlib** libraries.
 - In the next step we load the image dataset from the shared Drive and split them with 70:30 ratio. We also show their stats like count of each class.
-- We then transfer the image files according to the Mobile folder requirements (e.g. /train/class_name/ and /val/class_name/).
-- After transforming the Image using **torchvision.transforms** (e.g. *Rotation, Crop, Image Flip, Random Erasing*) we traing the model with these images and calculate the Running Loss.
-- After training ( and subsequent validation) we plot the accuracy graph for Training and Validation steps.
+- We then transfer the image files according to the MobileNet folder requirements (e.g. /train/class_name/ and /val/class_name/).
+- After transforming the Images using **torchvision.transforms** (e.g. *Rotation, Crop, Image Flip, Random Erasing*) we traing the model with transformed images and calculate the Running Loss.
+- After training (and subsequent validation) we plot the accuracy graph for Training and Validation step.
 - We also show the misclassified samples from each of the 4 classes.
 - Finally we export the model file (to be used in future sessions with AWS Lambda).
 
