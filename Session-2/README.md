@@ -1,5 +1,5 @@
 # Session-2 | EVA4P2
-#### TEAM: SANE_NEURONS (https://www.saneneurons.com)
+#### SANE_NEURONS (https://www.saneneurons.com)
 
 ### Assignment:
 1. Collect 1000 images for one of the classes mentioned below:
@@ -28,6 +28,8 @@ In this section, we briefy walk you through the Python Notebook for the training
 - We also show the misclassified samples from each of the 4 classes.
 - Finally we export the model file (to be used in future sessions with AWS Lambda).
 
+#### Datasets
+This [Google Drive folder](https://drive.google.com/drive/folders/1co2Ik7knQLrrDf7hqo0-TaYaolr1dpDw) has images from all 4 classes.
 
 #### Resizing Strategy
 We have used the open-source GIMP (GNU Image Manipulation Program) image editor tool to resize the images and to convert all images to JPEG format. Used BIMP (Batch Image Manipulation Plugin) for GIMP to perform batch manipulation of Images.
