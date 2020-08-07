@@ -57,13 +57,13 @@ Check this article on [MobileNet V2](https://towardsdatascience.com/mobilenetv2-
 ![MobileNetV2 Output](https://github.com/saneneurons/eva4p2/blob/master/Session-2/misclassified_samples/FlyingBirds_misclassified_samples.png "FlyingBirds Misclassified Samples")
 
 2. LargeQuadCopters
-![MobileNetV2 Output](https://github.com/saneneurons/eva4p2/blob/master/Session-1/misclassified_samples/LargeQuadCopters_misclassified_samples.png "LargeQuadCopters Misclassified Samples")
+![MobileNetV2 Output](https://github.com/saneneurons/eva4p2/blob/master/Session-2/misclassified_samples/LargeQuadCopters_misclassified_samples.png "LargeQuadCopters Misclassified Samples")
 
 3. SmallQuadCopters
-![MobileNetV2 Output](https://github.com/saneneurons/eva4p2/blob/master/Session-1/misclassified_samples/SmallQuadCopters_misclassified_samples.png "SmallQuadCopters Misclassified Samples")
+![MobileNetV2 Output](https://github.com/saneneurons/eva4p2/blob/master/Session-2/misclassified_samples/SmallQuadCopters_misclassified_samples.png "SmallQuadCopters Misclassified Samples")
 
 4. WingedDrones
-![MobileNetV2 Output](https://github.com/saneneurons/eva4p2/blob/master/Session-1/misclassified_samples/WingedDrones_misclassified_samples.png "WingedDrones Misclassified Samples")
+![MobileNetV2 Output](https://github.com/saneneurons/eva4p2/blob/master/Session-2/misclassified_samples/WingedDrones_misclassified_samples.png "WingedDrones Misclassified Samples")
 
 
 ### References:
