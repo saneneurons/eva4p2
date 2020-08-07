@@ -3,19 +3,19 @@
 
 ### Assignment:
 1. Collect 1000 images for one of the classes mentioned below:
-  - FlyingBirds
-  - LargeQuadCopters
-  - SmallQuadCopters
-  - WingedDrones (assigned to our group)
+- FlyingBirds
+- LargeQuadCopters
+- SmallQuadCopters
+- WingedDrones (assigned to our group)
 
     *In all of these images, the objects MUST be flying and not on the ground (so no product images or them on the ground). You can use Google, Flickr, Bing, Yahoo, or DuckDuckGo for image search.*
 
 2. Train (transfer learning) MobileNet_V2 on a custom dataset of 31000(or total images collected for all the classes) images
-  - Make 70:30 split for train/validation image dataset.
-  - Name the 4 classes as **FlyingBirds, LargeQuadCopters, SmallQuadCopters** and **WingedDrones**.
-  - MobileNet_V2 is trained on 224 x 224 image size, the downloaded images from web might not be of same size. Think and implement best strategy.
-  - Save the model and upload it on AWS Lambda. Keep it ready for future use (use the same S3 bucket as Session-1)
-  - Submit the answers in S2 Quiz.
+- Make 70:30 split for train/validation image dataset.
+- Name the 4 classes as **FlyingBirds, LargeQuadCopters, SmallQuadCopters** and **WingedDrones**.
+- MobileNet_V2 is trained on 224 x 224 image size, the downloaded images from web might not be of same size. Think and implement best strategy.
+- Save the model and upload it on AWS Lambda. Keep it ready for future use (use the same S3 bucket as Session-1)
+- Submit the answers in S2 Quiz.
 
 ### Solution:
 #### Code Explanation
